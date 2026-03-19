@@ -101,7 +101,7 @@
 
 'use client';
 import Image from 'next/image';
-import Mockup from '@/public/images/Screen.jpg';
+import Mockup from '@/public/images/Screen.png';
 import { useForm } from 'react-hook-form';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
