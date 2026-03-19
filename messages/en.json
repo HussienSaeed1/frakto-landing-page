@@ -1,0 +1,88 @@
+{
+  "Home": {
+    "HeroSection": {
+      "Home": "Home",
+      "Features": "Investment Hub",
+      "HowItWorks": "How It Works",
+      "DownloadApp": "Get Early Access",
+      "FAQ": "FAQ",
+      "Heading": "Invest in Curated Real Estate Projects, Built for Simplicity and Security.",
+      "Paragraph": "Explore vetted real estate projects, track expected returns, and manage your investments — all in one secure platform."
+    },
+    "FeaturesSection": {
+      "Heading": "Invest With Confidence",
+      "CardOne": {
+        "Heading": "Flexible Fractional Ownership",
+        "Paragraph": "Invest in a share of real estate projects without committing large amounts of capital."
+      },
+      "CardTwo": {
+        "Heading": "Simple, Transparent Investing",
+        "Paragraph": "Understand expected returns and timelines before you invest — no hidden steps."
+      },
+      "CardThree": {
+        "Heading": "Carefully Selected Projects",
+        "Paragraph": "Invest only in vetted real estate opportunities with clear documentation and projections."
+      }
+    },
+    "HowItWorksSection": {
+      "Heading": "Invest with Ease",
+      "Register": "Register",
+      "Explore": "Explore",
+      "Select": "Invest",
+      "Upload": "Manage"
+    },
+    "WhyFraktoSection": {
+      "Heading": "Everything in One Place",
+      "CardOne": {
+        "Heading": "Calculate Your Investment",
+        "Paragraph": "Get a simple estimate of potential returns based on your investment details."
+      },
+      "CardTwo": {
+        "Heading": "Explore Projects",
+        "Paragraph": "Compare opportunities based on expected returns, investment period, and amount."
+      },
+      "CardThree": {
+        "Heading": "Investment Documents",
+        "Paragraph": "Access and keep all your investment documents in one secure place."
+      }
+    },
+    "TestimonialsSection": {
+      "Heading": "What People Think",
+      "CardOne": {
+        "Paragraph": "“Frakto makes real estate investing clear and secure. The ROI tracking gives me full confidence.”",
+        "Name": "Youssef Khoury"
+      },
+      "CardTwo": {
+        "Paragraph": "“Frakto offers exclusive opportunities and seamless management. It’s the future of smart investing.”",
+        "Name": "Layla Hassan"
+      },
+      "CardThree": {
+        "Paragraph": "“With Frakto, every pound I invest feels like a step closer to my future goals. I can see growth in real time!”",
+        "Name": "Amina Mansour"
+      },
+      "CardFour": {
+        "Paragraph": "“I never thought investing could be this easy. Frakto feels like a friend guiding me every step.”",
+        "Name": "Karim El-Masry"
+      }
+    },
+    "DownloadSection": {
+      "Heading": "Ready to Invest When We Launch?",
+      "Paragraph": "Join the waiting list to get early access to upcoming investment opportunities and platform updates.",
+
+      "EmailPlaceholder": "Your email address",
+
+      "SendButton": "Get Early Access",
+      "Sending": "Sending...",
+
+      "Success": "Request sent successfully!",
+      "Error": "Something went wrong. Please try again.",
+
+      "EmailRequired": "Email is required",
+      "EmailInvalid": "Please enter a valid email address",
+      "hint": "No spam. Only meaningful investment updates."
+    },
+    "FAQSection": {
+      "Heading": "Got Questions? We’ve Got Answers!"
+    }
+  }
+}
