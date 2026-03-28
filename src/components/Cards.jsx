@@ -90,7 +90,7 @@ function Cards() {
               <Image
                 src={img}
                 alt={title}
-                className={i === 0 ? "w-10 h-10" : "w-8 h-8"}
+                className={"w-8 h-8"}
 
               />
             </div>
