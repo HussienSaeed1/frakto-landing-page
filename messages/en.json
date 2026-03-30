@@ -83,6 +83,9 @@
     },
     "FAQSection": {
       "Heading": "Got Questions? We’ve Got Answers!"
+    },
+    "FooterSection": {
+      "copy": "© 2026 Frakto. All rights reserved."
     }
   }
 }

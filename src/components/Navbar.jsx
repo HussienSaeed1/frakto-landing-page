@@ -26,6 +26,7 @@ export default function Navbar() {
   const burgerRef = useRef(null);
 
   const t = useTranslations("Home.HeroSection");
+    const copy = useTranslations("Home.FooterSection");
 
   const sections = [
     { key: "Home", id: "home" },
@@ -187,8 +188,11 @@ export default function Navbar() {
               <FaTiktok className="text-colorsPrimaryPrimaryColor" />
               <FaYoutube className="text-colorsPrimaryPrimaryColor" />
             </div>
-            <p className="text-sm text-colorsPrimaryPrimaryColor text-center w-full">
-              © 2025 Frakto. All rights reserved.
+            <p
+              dir="ltr"
+              style={{ direction: "ltr", unicodeBidi: "embed" }}
+              className="text-sm text-colorsPrimaryPrimaryColor text-center w-full">
+              {copy("copy")}
             </p>
           </div>
         </div>
