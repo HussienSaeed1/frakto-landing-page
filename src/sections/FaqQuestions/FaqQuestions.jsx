@@ -4,6 +4,7 @@ import { useState, useRef } from 'react';
 import { IoAddOutline } from 'react-icons/io5';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
+import { BASE_URL } from '@/src/services/config/config';
 
 export default function FAQAccordion() {
   const [expandedPanels, setExpandedPanels] = useState({});
@@ -18,13 +19,9 @@ export default function FAQAccordion() {
   } = useQuery({
     queryKey: ['faqs'], 
   queryFn: async () => {
-  const res = await axios.get(
-    'https://api.staging.bydotlap.xyz/api/faq/mobile',
-    {
-      // const res = await axios.get('https://api.dev.bydotlap.xyz/api/faq/mobile', {
-      headers: { lang: locale },
-    }
-  );
+  const res = await axios.get(`${BASE_URL}/faq/mobile`, {
+    headers: { lang: locale },
+  });
   return res.data?.data; 
 },
   });
