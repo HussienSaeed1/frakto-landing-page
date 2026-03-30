@@ -31,7 +31,7 @@ export default function FAQAccordion() {
 
   return (
     <section id="faq">
-      <div className="faq-accordion py-36 mx-auto px-6 lg:px-16 grid grid-cols-1 items-center bg-colorsPrimaryPrimary900">
+      <div className=" border-t border-[#EEF1F5] faq-accordion py-36 mx-auto px-6 lg:px-16 grid grid-cols-1 items-center bg-colorsPrimaryPrimary900">
         <h2 className="text-textHeadingsHeading328pxMedium md:text-textHeadingsHeading640pxMedium lg:text-textHeadingsHeading748pxMedium font-medium text-[#F5F9FB]">
           {t("Heading")}
         </h2>

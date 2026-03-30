@@ -36,7 +36,7 @@ export default function Home() {
       <Ease /> 
       <OnePlace /> 
       <Testimonials /> 
-      <DownloadSection /> 
+      {/* <DownloadSection />  */}
       <AccordionExpandIcon /> 
       <Footer /> 
       <BackToTop /> 

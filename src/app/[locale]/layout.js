@@ -92,8 +92,8 @@ export async function generateMetadata({ params }) {
 
   const title = isArabic ? "FRAKTO PROPTECH" : "FRAKTO PROPTECH";
   const description = isArabic
-    ? "استثمر بسهولة مع Frakto — حلول مالية واستثمارية آمنة وذكية مصممة لتساعدك على تحقيق أهدافك بثقة."
-    : "Invest easily with Frakto — secure and intelligent financial solutions designed to help you reach your goals confidently.";
+    ? "شركة Frakto هي منصة تكنولوجيا عقارية (PropTech) تغيّّر طريقة الاستثمار في العقارات. نوصل المستثمرين بفرص حقيقية ومضمونة العائد من خلال شراء، وتطوير، وتأجير العقارات المميزة. نقدّم تجربة استثمارية سريعة، شفافة، ومبنية على بيانات دقيقة وإدارة محترفة."
+    : "Frakto is a PropTech platform changing the way you invest in real estate. We connect investors with real, high-yield opportunities through the acquisition, development, and leasing of premium properties. We offer a fast, transparent investment experience built on accurate data and professional management.";
 
   const keywords = isArabic
     ? [
